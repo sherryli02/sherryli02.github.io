@@ -1,0 +1,13 @@
+body {
+	background-color: yellow;
+}
+
+div {
+	font-family: arial;
+	color: blue;
+	background-color: white;
+}
+
+h1, h2, h3, h4 {
+	font-size: 100px;
+}
