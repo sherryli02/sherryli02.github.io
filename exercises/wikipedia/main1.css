@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap');
+/*@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');*/
+
+body {
+	cursor: url(starfleet-cursor.png), auto;
+	font-family: 'Work Sans', sans-serif;
+	line-height: 170%;
+	padding-top: 60px;
+	padding-bottom: 100px;
+	padding-left: 200px;
+	padding-right: 200px;
+}
+
+starfleet-cursor {
+	
+}
+
+h1 {
+	font-family:  'Libre Baskerville', serif;
+	padding-top: 40px;
+	margin-bottom: 0px;
+	font-size: 90px;
+}
+
+h4 {
+	font-family:  'Montserrat Alternates', sans-serif;
+	/*font-weight:;*/
+	font-size: 30px;
+	padding-bottom:  40px;
+}
+
+h2 {
+	font-family:  'Montserrat Alternates', sans-serif;
+	font-size: 50px;
+	padding-top: 60px;
+	padding-bottom: 10px;
+}
+
+h3 {
+	font-family:  'Montserrat Alternates', sans-serif;
+	margin-top: 70px;
+	margin-bottom: 30px;
+	font-size: 30px;
+}
+
+p {
+	margin: 0px;
+	font-size: 20px;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
+.quote1 {
+	font-family:  'Libre Baskerville', serif;
+	margin-left:  100px;
+	margin-top:  200px;
+	font-size: 30px;
+	line-height: 110%;
+	min-width: 300px;
+}
+
+.quote2 {
+	font-family:  'Libre Baskerville', serif;
+	margin-left:  100px;
+	margin-right:  100px;
+	margin-top:  50px;
+	margin-bottom:  50px;
+	font-size: 30px;
+	line-height: 110%;
+}
+
+.photo-and-caption {
+    display: flex;
+    flex-direction: column;
+    margin-left: 110px;
+    font-size: 14px;
+    line-height: 100%;
+}
+
+.gene-roddenberry {
+	width: 220px;
+    height: 270px;
+    margin-bottom: 10px;
+}
+.spock-and-kirk {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 220px;
+    height: 270px;
+}
+.captains {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 320px;
+    height: 210px;
+}
+.testbed {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 320px;
+    height: 230px;
+}
+.astronaut {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 320px;
+    height: 220px;
+}
+.borg {
+	margin-top: 30px;
+	margin-bottom: 10px;
+	width: 320px;
+    height: 430px;
+}
+
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    min-width: 100%;
+}
+
+.styled-table thead tr {
+    background-color: darkgray;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th, .styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid darkgray;
+}
