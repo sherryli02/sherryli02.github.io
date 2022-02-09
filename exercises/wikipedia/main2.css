@@ -5,11 +5,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@1,700&display=swap');
 body {
 	cursor: url(starfleet-logo-2.png), auto;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
+	font-style: normal;
 	line-height: 270%;
 	padding-top: 60px;
 	padding-bottom: 100px;
@@ -144,7 +145,11 @@ p {
 }
 
 .quote1 {
-	font-family: 'Orbitron', sans-serif;
+	/*font-family: 'Orbitron', sans-serif;*/
+	font-family: 'Josefin Slab', serif;
+	font-style: bold;
+	font-style: italic;
+	/*font-family: 'Russo One', sans-serif;*/
 	/*color: grey;*/
 	font-size: 30px;
 	line-height: 110%;
@@ -208,6 +213,27 @@ p {
 	margin-bottom: 10px;
 	width: 320px;
     height: 430px;
+}
+
+.enterprise-button {
+	width: 400px;
+	/*transform: scale(100%);*/
+    height: 200px;
+    margin: 0;
+    transition:  all 0.5s ease;
+}
+.enterprise-button:hover {
+	transform: translateX(-400px) translateY(100px) scale(-150%);
+	/*transform: translateX(400px) translateY(400px) scale(150%);*/
+/*	transform: scale(-105%);
+	transform: translateX(-100px);*/
+}
+.footer {
+	margin-bottom: 40px;
+	margin-top: 90px;
+	display: flex;
+	align-items: right;
+  	justify-content: right;
 }
 
 .styled-table {
