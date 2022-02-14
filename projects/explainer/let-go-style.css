@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+body {
+	background-color: #0B1126;
+}
+
+a:link {
+    text-decoration: none!important;
+    color: white;
+}
+
+.container {
+	text-decoration: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	font-size: 6vw;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: oblique;
+	color: #9894CB;
+	font-size: 6.5vw;
+	line-height: 6.5vw;
+}
+
+p {
+	max-width: 60vw;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: grey;
+	font-size: 3vw;
+	line-height: 3.2vw;
+}
+
+.vertical-center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+   	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.circle-1 {
+	background: radial-gradient(50% 50% at 50% 50%, #B4C0FF 0%, rgba(196, 196, 196, 0) 100%);
+	position: fixed;
+	width: 17vw;
+	height: 17vw;
+	transform: translateX(-4.5vw) translateY(-15.5vw);
+}
+
+.circle-2 {
+	background: radial-gradient(50% 50% at 50% 50%, #B4C0FF 0%, rgba(196, 196, 196, 0) 100%);
+	position: fixed;
+	width: 50vw;
+	height: 50vw;
+	transform: translateX(-20vw) translateY(-32vw);
+}
+
+.circle-3 {
+	background: radial-gradient(50% 50% at 50% 50%, #B4C0FF 0%, rgba(196, 196, 196, 0) 100%);
+	position: fixed;
+	width: 100vw;
+	height: 100vw;
+	transform: translateX(-46vw) translateY(-56vw);
+}
+

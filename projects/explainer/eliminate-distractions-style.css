@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,500&display=swap');
+
+
+body {
+	background-color: #0B1126;
+}
+
+a:link {
+    text-decoration: none!important;
+    color: #9894CB;
+}
+
+.container {
+	text-decoration: none!important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
+	align-self: center;
+	font-size: 6vw;
+	flex-direction: column;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-style: italic;
+	color: #9894CB;
+	font-size: 6.5vw;
+	line-height: 6.5vw;
+}
+
+p {
+	max-width: 60vw;
+	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	color: #615F7C;
+	font-size: 3vw;
+	line-height: 3.2vw;
+}
+
+.vertical-center {
+	margin: 0;
+    position: absolute;
+    top: 50%;
+   	-ms-transform: translateY(-50%);
+  	transform: translateY(-50%);
+}
+
+.square-6 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(27vw) translateY(0vw) rotate(30deg);
+}
+
+.square-5 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(17vw) translateY(2vw) rotate(20deg);
+}
+
+.square-4 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(0) translateY(6vw) rotate(35deg);
+}
+
+.square-3 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(-13vw) translateY(-1vw) rotate(10deg);
+}
+
+.square-2 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(-25vw) translateY(-1vw) rotate(25deg);
+}
+
+.square-1 {
+	background-color: #9894CB;
+	position: fixed;
+	width: 13vw;
+	height: 17vw;
+	transform: translateX(-40vw) translateY(4vw) rotate(10deg);
+}
