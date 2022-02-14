@@ -63,7 +63,6 @@ a:link {
 
 
 .focus-black {
-	
 	text-decoration: none;
 	font-style: italic;
 	font-family: 'Raleway', sans-serif;
@@ -84,7 +83,7 @@ a:link {
 }
 
 .focus {
-	animation: fadeIn linear 2s;
+	  animation: fadeIn linear 2s;
     text-decoration: none;
     font-style: oblique;
     font-family: 'Raleway', sans-serif;
