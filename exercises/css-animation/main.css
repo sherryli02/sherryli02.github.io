@@ -10,8 +10,6 @@ body {
 }
 
 @keyframes takeoff {
-
-
   0% {
     transform: translateY(0vw) translateX(0vw);
   }
@@ -27,160 +25,15 @@ body {
   }
 
   40% {
-    transform: translateY(-24vw) translateX(5vw) rotate(20deg) scale(0.5);
+    transform: translateY(-27vw) translateX(5vw) rotate(20deg) scale(0.5);
   } 
 
   70% {
-    transform: translateY(-22vw) translateX(0vw) rotate(360deg) scale(0.5);
+    transform: translateY(-26vw) translateX(0vw) rotate(360deg) scale(0.5);
   }
   
-
-  /*50% {transform: translateX(20vw);}*/
   90%, 100% {
     transform: translateY(0vw) translateX(0vw) rotate(360deg);
   }
-  /*100% {transform: rotate(1turn);}*/
 }
 
-
-
-
-
-
-
-
-
-.mainheading {
-    font-family: arial, sans-serif;
-    font-size: 60px;
-    line-height: 1.4;
-    margin-top: 600px;
-    margin-left: 200px;
-    position: absolute;
-    padding: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-color: black;
-    border-style: solid;
-}
-
-.bag {
-  margin-top: 460px;
-  margin-left: 490px;
-  position: absolute;
-  width: 20%;
-  height: 40%;
-  transition: all 1s ease-in-out;
-}
-
-.bag:hover {
-  opacity:  100;
-  -webkit-transform: scale(1.3);
-}
-
-.sanitizer {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  width: 10%;
-  height: auto;
-  padding: 20px;
-  margin-top: 510px;
-  margin-left: 100px;
-  position: absolute;
-  transform: rotate(20deg)
-
-}
-
-.sanitizer:hover {
-  opacity:  100;
-  transform: rotate(0deg) scale(1.3) translate(-20px, 100px);
-}
-
-
-.breakfast {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  width: 10%;
-  height: auto;
-  padding: 20px;
-  margin-top: 510px;
-  margin-left: 150px;
-  position: absolute;
-  transform: rotate(-20deg)
-
-}
-
-.breakfast:hover {
-  opacity:  100;
-  transform: rotate(0deg) scale(1.3) translate(100px, 100px);
-}
-
-.airpods {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  width: 5%;
-  height: auto;
-  padding: 60px;
-  margin-top: 500px;
-  margin-left: 300px;
-  position: absolute;
-  transform: rotate(-20deg)
-
-}
-
-.airpods:hover {
-  opacity:  100;
-  transform: rotate(-80deg) scale(1.3) translate(100px, 100px);
-}
-
-.mac {
-  transition: all 1s ease-in-out;
-  opacity: 0;
-  width: 20%;
-  height: auto;
-  padding: 40px;
-  margin-top: 480px;
-  margin-left: 390px;
-  position: absolute;
-  transform: rotate(-100deg)
-
-}
-.mac:hover {
-  opacity: 100;
-  transform: rotate(-180deg) scale(1.3) translate(100px, 200px);
-}
-
-.pencilcase {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  width: 15%;
-  height: auto;
-  padding: 10px;
-  margin-top: 510px;
-  margin-left: 620px;
-  position: absolute;
-  transform: rotate(80deg)
-
-}
-
-.pencilcase:hover {
-  opacity:  100;
-  transform: rotate(-10deg) scale(1.3) translate(100px, 100px);
-}
-
-.waterbottle {
-  transition: all 0.5s ease-in-out;
-  opacity: 0;
-  width: 15%;
-  height: auto;
-  padding: 10px;
-  margin-top: 490px;
-  margin-left: 620px;
-  position: absolute;
-  transform: rotate(-100deg)
-
-}
-.waterbottle:hover {
-  opacity:  100;
-  transform: rotate(-170deg) scale(1.3) translate(200px, 100px);
-}
