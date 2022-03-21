@@ -155,7 +155,7 @@ body {
 
 .option-1 {
 	color: white;
-	font-size: 2vw;
+	font-size: 2.5vw;
 	line-height: 2vw;
 /*display: none;*/
 	margin-left: 0vw;
@@ -185,8 +185,8 @@ body {
 }
 
 .clown-text-2 {
-	width: 35vw;
-	margin-top: 25vw;
+	width: 30vw;
+	margin-top: 26vw;
 	margin-left:  22vw;
 	position: absolute;
 	color: yellow;
@@ -199,8 +199,8 @@ body {
 }
 
 .clown-text-3 {
-	width: 30vw;
-	margin-top: 29vw;
+	width: 34vw;
+	margin-top: 32vw;
 	margin-left:  20vw;
 	position: absolute;
 	transform: rotate(1deg);
