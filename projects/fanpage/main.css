@@ -1,0 +1,558 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+
+
+
+body {
+	background-color: #4200FF;
+	display: flex;
+	flex-direction: column;
+	    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.first-intro-container {
+	height: 150vh;
+	background: #4200FF;
+
+	/*background: linear-gradient(0deg, #4200FF 0%, black 100%);*/
+	  width: 100%; /* Width of the outside container */
+	  display: flex;
+	  flex-wrap: wrap;
+	  justify-content: center;
+
+}
+
+.first-intro-text {
+	font-weight: bold;
+	font-size: 7vw;
+	line-height: 6.5vw;
+	margin-top: 7vw;
+	/*margin-bottom: 50vh;*/
+	margin-left: 6vw;
+	/*margin-right: 15vw;*/
+	/*font-family: 'Rubik', sans-serif;*/
+	/*font-family: 'Yeseva One', cursive;*/
+		font-family: 'Chonburi', cursive;
+
+		  color: yellow;
+	  /*background-color: yellow;*/
+	  	  padding: 2vw;
+	  	  transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+}
+
+.gq-credit {
+	margin-top: 45vw;
+	margin-left: 30vw;
+	letter-spacing: 0.3vw;
+	width: 23vw;
+	font-size: 2vw;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	padding: 0.5vw;
+	padding-left: 4vw;
+	padding-right: 2vw;
+	background-color: black;
+	color: white;
+	position: absolute;
+	line-height: 3vh;
+	transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	
+}
+
+
+.intro-container {
+	height: 100vh;
+}
+
+.intro-text {
+	color: white;
+	font-size: 4vw;
+	line-height: 4vw;
+	margin-top: 20vh;
+	margin-bottom: 80vh;
+	margin-left: 10vw;
+	margin-right: 22vw;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+}
+
+.rpat1 {
+	width: 50vw;
+	height: 33vw;
+	margin-top: 30vw;
+	margin-left: 30vw;
+	position: absolute;
+	animation: jiggle 2s ease-in-out infinite;
+}
+
+.rpat1-bg {
+	width: 54vw;
+	height: 35vw;
+	margin-top: 29.7vw;
+	margin-left: 30vw;
+	background-color: yellow;
+	position: absolute;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+}
+
+.intro-text-bold {
+	/*font-family: 'Yeseva One', cursive;*/
+	font-weight: bold;
+	color: yellow;
+	letter-spacing: 0.3vw;
+}
+
+.intro-underline {
+
+}
+
+.intro-text-emphasis {
+	letter-spacing: 0.3vw;
+	transform: rotate(-4deg);
+	-webkit-transform: rotate(-4deg);
+	transform: rotate(11deg);
+	-webkit-transform: rotate(-10deg);
+	background-color: yellow;
+	color: #4200FF;
+	/*padding: 0.2vw;*/
+	/*transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);*/
+}
+
+.quote-credit {
+	margin-top: 45vw;
+	margin-left: 65vw;
+	letter-spacing: 0.3vw;
+	width: 23vw;
+	font-size: 1.5vw;
+	font-family: 'Rubik', sans-serif;
+	font-weight: bold;
+	padding: 0.2vw;
+	padding-left: 2vw;
+	background-color: black;
+	color: white;
+	position: absolute;
+	
+
+}
+
+
+.container {
+	/*flex-direction: column;*/
+	height: 100vw;
+	/*margin-top: 5vw;*/
+}
+
+.option-1 {
+	color: white;
+	font-size: 2vw;
+	line-height: 2vw;
+/*display: none;*/
+	margin-left: 0vw;
+	margin-right: 0vw;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+
+}
+
+.clown-car {
+	width: 30vw;
+	height: 20vw;
+	margin-top: 0vw;
+	margin-left: 10vw;
+	position: absolute;
+	transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+}
+
+.clown-text-1 {
+	width: 35vw;
+	position: absolute;
+	margin-top: 18vw;
+	margin-left:  15vw;
+	transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);
+}
+
+.clown-text-2 {
+	width: 35vw;
+	margin-top: 25vw;
+	margin-left:  22vw;
+	position: absolute;
+	color: yellow;
+	/*background-color: black;*/
+	font-weight: bold;
+	padding: 0.5vw;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	/*font-family: 'Chonburi', cursive;*/
+}
+
+.clown-text-3 {
+	width: 30vw;
+	margin-top: 29vw;
+	margin-left:  20vw;
+	position: absolute;
+	transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);
+}
+
+.clown-text-4 {
+	transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+	width: 28vw;
+	margin-top: 2vw;
+	margin-left:  58vw;
+	position: absolute;
+	background-color: yellow;
+	color: black;
+	font-weight: bold;
+	padding: 1vw;
+	letter-spacing: 0.1vw;
+
+}
+
+
+
+.option-2 {
+	color: white;
+	font-size: 7vw;
+	line-height: 5vw;
+display: none;
+	margin-left: 0vw;
+	margin-right: 0vw;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+}
+
+
+.get-therapy {
+	width: 50vw;
+	margin-top: 7vw;
+	margin-left:  20vw;
+	position: absolute;
+	font-family: 'Chonburi', cursive;
+	color: #FEFFCD;
+}
+
+.serial-killer {
+	width: 50vw;
+	margin-top: 13vw;
+	margin-left:  25vw;
+	position: absolute;
+	font-weight: bold;
+	color: #F2FB93;
+
+}
+
+.kill-yourself {
+	width: 50vw;
+	margin-top: 24vw;
+	margin-left:  30vw;
+	position: absolute;
+	font-style: italic;
+	color: yellow;
+}
+
+.option-3 {
+	color: white;
+	font-size: 3.5vw;
+	line-height: 3vw;
+display: none;
+	margin-top: 2vw;
+	margin-left: 10vw;
+	margin-right: 25vw;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+}
+
+.vags {
+	width: 60vw;
+	height: 30vw;
+	margin-top: 20vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+
+.vag-text-1 {
+	position: absolute;
+	margin-top: 3vw;
+	margin-left: 10vw;
+/*	transform: rotate(0deg);
+	-webkit-transform: rotate(0deg);*/
+}
+
+.vag-text-2 {
+	position: absolute;
+	margin-top: 3vw;
+	margin-left: 10vw;
+/*	transform: rotate(0deg);
+	-webkit-transform: rotate(-90deg);*/
+}
+
+.vag-text-3 {
+	position: absolute;
+	margin-top: 3vw;
+	margin-left: 10vw;
+/*	transform: rotate(0deg);
+	-webkit-transform: rotate(90deg);*/
+}
+
+.vag-text-4 {
+	
+}
+
+.option-4 {
+	color: #4200FF;
+	font-size: 8vw;
+	display: none;
+	font-family: 'Chonburi', cursive;
+}
+
+.paparazzi {
+	width: 60vw;
+	height: 40vw;
+	margin-top: 0vw;
+	margin-left: 20vw;
+	position: absolute;
+}
+
+.paparazzi-text-1 {
+	position: absolute;
+	background-color: yellow;
+	padding: 3vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 3vw;
+	margin-left: 10vw;
+	transform: rotate(8deg);
+	-webkit-transform: rotate(8deg);
+}
+
+.paparazzi-text-2 {
+	position: absolute;
+	background-color: yellow;
+	padding: 2vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 10vw;
+	margin-left: 40vw;
+	transform: rotate(-6deg);
+	-webkit-transform: rotate(-6deg);
+}
+
+.paparazzi-text-3 {
+	position: absolute;
+	background-color: yellow;
+	padding: 2vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 20vw;
+	margin-left: 20vw;
+	transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
+}
+
+.paparazzi-text-4 {
+	position: absolute;
+	background-color: yellow;
+	padding: 2vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-left: 15vw;
+	margin-top: 28vw;
+	transform: rotate(1deg);
+	-webkit-transform: rotate(1deg);
+}
+
+.paparazzi-text-5 {
+	position: absolute;
+	background-color: yellow;
+	padding: 2vw;
+	padding-top: 0;
+	padding-bottom: 0;
+	margin-top: 34vw;
+	margin-left: 40vw;
+	transform: rotate(-9deg);
+	-webkit-transform: rotate(-9deg);
+}
+
+
+
+.option-5 {
+	font-family: 'Rubik', sans-serif;
+	/*font-weight: bold;*/
+	display: none;
+	color: white;
+
+}
+
+.stalker-text {
+	color: white;
+	letter-spacing: 0.3vw;
+		font-size: 3.5vw;
+	line-height: 3vw;
+	margin-top: 5vw;
+	margin-left: 25vw;
+	margin-right: 15vw;
+	/*display: none;*/
+	/*font-family: 'Chonburi', cursive;*/
+	position: absolute;
+}
+
+.body-1 {
+	width: 30vw;
+	height: 40vw;
+	margin-top: 0vw;
+	margin-left: 4vw;
+	position: absolute;
+	transform: rotate(-12deg);
+	-webkit-transform: rotate(-12deg);
+}
+
+.body-2 {
+	width: 30vw;
+	height: 40vw;
+	position: absolute;
+	margin-left: 60vw;
+	margin-top: -21vw;
+	position: absolute;
+	transform: rotate(-100deg);
+	-webkit-transform: rotate(-100deg);
+}
+
+.body-3 {
+		width: 30vw;
+	height: 40vw;
+	position: absolute;
+	margin-left: 68vw;
+	margin-top: 18vw;
+	position: absolute;
+	transform: rotate(30deg);
+	-webkit-transform: rotate(30deg);
+}
+
+
+.option-6 {
+	color: white;
+	font-size: 3vw;
+	line-height: 2.5vw;
+display: none;
+	margin-left: 0vw;
+	margin-right: 0vw;
+	font-family: 'Rubik', sans-serif;
+	position: absolute;
+
+}
+
+.hair-text-1 {
+	font-family: 'Chonburi', cursive;
+	color: white;
+		padding: 1vw;
+
+	background-color: black;
+	width: 35vw;
+	position: absolute;
+	margin-top: 0vw;
+	margin-left:  5vw;
+}
+.hair-text-2 {
+	color: yellow;
+	width: 45vw;
+	position: absolute;
+	margin-top: 13vw;
+	margin-left:  10vw;
+}
+.hair-text-3 {
+	color: white;
+	background-color: black;
+	padding: 1vw;
+	font-family: 'Chonburi', cursive;
+	width: 35vw;
+	position: absolute;
+	margin-top: 15vw;
+	margin-left:  58vw;
+}
+.hair-text-4 {
+	color: yellow;
+	width: 33vw;
+	position: absolute;
+	margin-top: 25.5vw;
+	margin-left:  62vw;
+}
+
+
+
+
+
+
+
+.slidecontainer {
+		margin-top: 100vh;
+  width: 100%; /* Width of the outside container */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /*margin-top: 15vh;*/
+  margin-bottom: 10vh;
+}
+
+
+/* The slider itself */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  /*border-radius: 30vw;*/
+  /*border-radius: 100%;*/
+  appearance: none;
+  width: 70%;
+  height: 10px;
+  background: black;
+  outline: none;
+/*  -webkit-transition: .2s;
+  transition: opacity .2s;*/
+
+}
+
+.slider:hover {
+	transition:  all 0.5s ease;
+	/*transform: scale(1.1);*/
+	background: yellow;
+}
+
+/* The slider handle (use -webkit- (Chrome, Opera, Safari, Edge) and -moz- (Firefox) to override default look) */
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  /*appearance: none;*/
+  width: 100px;  
+  height: 119px; 
+  /*background: #04AA6D; /* Green background */*/
+  background: url(slider-resized.png);
+  background-image: url(slider-resized.png);
+  cursor: pointer; /* Cursor on hover */
+  animation: jiggle 1s ease-in-out infinite;
+}
+
+@keyframes jiggle {
+	0%, 33%, 99%, 100% {
+    transform: rotate(2deg)
+	}
+	66% {
+	transform: translateX(0.5vw) rotate(-2deg);
+	}
+}
+
+
+
+
+
