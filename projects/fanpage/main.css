@@ -521,7 +521,7 @@ display: none;
   height: 10px;
   background: black;
   outline: none;
-  /*animation: jiggle 10s ease-in-out infinite;*/
+  animation: jiggle2 6s ease-in-out infinite;
 /*  -webkit-transition: .2s;
   transition: opacity .2s;*/
 
@@ -554,6 +554,18 @@ display: none;
 	}
 	66% {
 	transform: translateX(0.5vw) rotate(-2deg);
+	}
+}
+
+@keyframes jiggle2 {
+	0%, 20%, 45%, 65%, 100% {
+    transform: rotate(0deg)
+	}
+	50% {
+	transform: rotate(-2deg);
+	}
+	60% {
+	transform: rotate(2deg);
 	}
 }
 
