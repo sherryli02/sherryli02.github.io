@@ -445,9 +445,9 @@ display: none;
 
 .option-6 {
 	color: white;
-	font-size: 3vw;
+	font-size: 2.9vw;
 	line-height: 2.5vw;
-display: none;
+	display: none;
 	margin-left: 0vw;
 	margin-right: 0vw;
 	font-family: 'Rubik', sans-serif;
@@ -457,24 +457,27 @@ display: none;
 
 .hair-text-1 {
 	font-family: 'Chonburi', cursive;
-	color: white;
-		padding: 1vw;
-
+	color: yellow;
+	padding: 1vw;
 	background-color: black;
 	width: 35vw;
 	position: absolute;
 	margin-top: 0vw;
 	margin-left:  5vw;
+	transform: rotate(2deg);
+	-webkit-transform: rotate(2deg);
 }
 .hair-text-2 {
-	color: yellow;
+	color: white;
 	width: 45vw;
 	position: absolute;
 	margin-top: 13vw;
 	margin-left:  10vw;
 }
 .hair-text-3 {
-	color: white;
+	transform: rotate(-2deg);
+	-webkit-transform: rotate(-2deg);
+	color: yellow;
 	background-color: black;
 	padding: 1vw;
 	font-family: 'Chonburi', cursive;
@@ -484,7 +487,7 @@ display: none;
 	margin-left:  58vw;
 }
 .hair-text-4 {
-	color: yellow;
+	color: white;
 	width: 33vw;
 	position: absolute;
 	margin-top: 25.5vw;
