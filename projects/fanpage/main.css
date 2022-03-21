@@ -70,7 +70,7 @@ body {
 
 
 .intro-container {
-	height: 70vh;
+	height: 50vw;
 }
 
 .intro-text {
@@ -149,7 +149,7 @@ body {
 
 .container {
 	/*flex-direction: column;*/
-	height: 100vw;
+	height: 80vw;
 	/*margin-top: 5vw;*/
 }
 
