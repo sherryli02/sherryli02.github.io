@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+body {
+  background-color:  #F1ECE8;
+  margin-top: 5vw;
+  margin-left: 10vw;
+  padding: 20px;
+  /*font-family: 'Chonburi', cursive;*/
+    font-family: 'Inter', sans-serif;
+    color: #A6B398;
+  font-size: 55px;
+}
+
+.graph {
+  margin-top: 10vw;
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+}
+
+.day {
+      color: #3A5A36;
+
+  font-family: 'Inter', sans-serif;
+  font-size: 36px;
+}
