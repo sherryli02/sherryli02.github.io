@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
 
 body {
   background-color:  #F1ECE8;
@@ -8,12 +8,15 @@ body {
   margin-left: 10vw;
   padding: 20px;
   /*font-family: 'Chonburi', cursive;*/
-    font-family: 'Inter', sans-serif;
-    color: #A6B398;
+  font-family: 'Inter', sans-serif;
+  font-weight: lighter;
+  color: #A6B398;
   font-size: 55px;
+  letter-spacing: 3px;
 }
 
 .graph {
+  font-weight: normal;
   margin-top: 10vw;
   font-family: 'Inter', sans-serif;
   max-width: 800px;
