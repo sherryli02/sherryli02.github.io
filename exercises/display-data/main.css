@@ -1,39 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Chonburi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
 
 body {
-  background-color: #086256;
-  color:  #D4B7D2;
-  margin: 0;
-  font-family: "DM Sans", sans-serif;
+  background-color: black;
+  margin-top: 5vw;
+  margin-left: 10vw;
   padding: 20px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: lighter;
+  color: white;
+  font-size: 35px;
+  letter-spacing: 3px;
 }
 
-h1 {
+.overall {
+  /*font-family: 'Inter', sans-serif;*/
+  display: flex;
+  justify-content: center;
+  margin-right: 200px;
+}
+
+.graph {
+  /*font-family: 'Chonburi', cursive;*/
   font-weight: normal;
-  font-size:  50px;
+  margin-top: 10vw;
+  font-family: 'Inter', sans-serif;
+  max-width: 800px;
+  display: flex;
+  flex-direction: row;
 }
 
-svg {
-  /*background-color:  white;*/
-}
-
-.tick {
-  font-size:  20px;
-  letter-spacing: 1px;
-}
-
-.domain {
-  display: none;
-}
-
-line {
-  display: none;
-}
-.rectangle {
-  transition: fill 500ms ease;
-}
-
-.rectangle:hover {
-  fill: #ff6af5;
-  cursor: pointer;
-
+.data {
+  /*font-family: 'Chonburi', cursive;*/
+  color: white;
+  border-radius: 100%;
+  background-color: yellow;
+  font-size: 36px;
 }
