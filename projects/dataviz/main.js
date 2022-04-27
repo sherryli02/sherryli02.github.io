@@ -101,7 +101,7 @@ let data = [
     type: 1,
   },
   {
-    text: "[SATURDAY, 2:00 PM] Grab dinner after the festival with ANTARES; then head back to my dorm.", 
+    text: "[SATURDAY, 7:15 PM] Grab dinner after the festival with ANTARES; then head back to my dorm.", 
     timestamp: 26,
     type: 1,
   },
