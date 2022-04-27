@@ -231,7 +231,7 @@ function updateClock() {
     // t = now.getMilliseconds() % 672;
     // t = now.getMinutes();
     t = now.getSeconds();
-    // time.innerHTML = t;
+    time.innerHTML = t;
 
     let item  = data.find(item => item.timestamp === t); 
     if (item != undefined) {
@@ -256,9 +256,32 @@ function updateClock() {
         newItem.classList.add("myLine" + [i]);
       }
 
-
       dataDiv.innerHTML = item.text;
       console.log(item);
+
+      if (t >= 0 && t <= 9) {
+        dayOfWeek.innerHTML = "DAY 1: THURSDAY";
+      }
+            if (t >= 10 && t <= 16) {
+        dayOfWeek.innerHTML = "DAY 2: FRIDAY";
+      }
+            if (t >= 17 && t <= 25) {
+        dayOfWeek.innerHTML = "DAY 3: SATURDAY";
+      }
+            if (t>=  26 && t <= 33) {
+        dayOfWeek.innerHTML = "DAY 4: SUNDAY";
+      }
+            if (t>=  34&& t <= 42) {
+        dayOfWeek.innerHTML = "DAY 5: MONDAY";
+      }
+            if (t>=  43&& t <= 51) {
+        dayOfWeek.innerHTML = "DAY 6: TUESDAY";
+      }
+       if (t>=  52 && t <= 60) {
+        dayOfWeek.innerHTML = "DAY 7: WEDNESDAY";
+      }
+
+
 
     }
     // call this function again in 1000ms

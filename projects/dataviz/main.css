@@ -48,6 +48,43 @@ body {
   color: white;
 }
 
+.top-container {
+		 font-family: 'Space Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Work Sans', sans-serif;
+
+  font-size: 1vw;
+  margin-left: 70vw;
+  margin-right: 3vw;
+  margin-top: 8vw;
+  margin-bottom: 1vw;
+
+font-style: oblique;
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+  typing 3.5s steps(30, end);
+}
+
+.dayOfWeek {
+/*	 font-family: 'Space Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Work Sans', sans-serif;
+
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+  typing 3.5s steps(30, end);*/
+}
+
 .theirLine {
   font-family: 'Space Mono', monospace;
   font-family: 'Anonymous Pro', monospace;
@@ -88,6 +125,15 @@ body {
 
   color: cyan;
   /*background-color: white;*/
+}
+
+.myLine:hover {
+	color: black;
+	background-color: white;
+}
+.theirLine:hover {
+	color: black;
+	background-color: white;
 }
 
 @keyframes typing {
