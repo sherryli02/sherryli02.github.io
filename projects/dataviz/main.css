@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+
+body {
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: white;
+}
+
+.container {
+	display: flex;
+  flex-direction: column-reverse;
+  /*background-color: darkblue;*/
+  /*max-width: 50vw;*/
+  /*min-height: 50vw;*/
+  margin: 10vw;
+  /*border-style: solid;*/
+  border-color: white;
+  border-width: 0.05vw;
+}
+
+
+.statusText {
+  font-family: 'Space Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Work Sans', sans-serif;
+
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+  typing 3.5s steps(30, end);
+
+  color: white;
+}
+
+.theirLine {
+  font-family: 'Space Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Work Sans', sans-serif;
+
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+  typing 3.5s steps(30, end);
+
+  color: yellow;
+  /*background-color: white;*/
+}
+
+.myLine {
+  font-family: 'Space Mono', monospace;
+  font-family: 'Anonymous Pro', monospace;
+  font-family: 'Work Sans', sans-serif;
+
+  font-size: 1vw;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  white-space: nowrap; /* Keeps the content on a single line */
+  letter-spacing: .10em; /* Adjust as needed */
+  animation: 
+  typing 3.5s steps(30, end);
+
+  color: cyan;
+  /*background-color: white;*/
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+  from { background: 0 }
+  to { width: 100% }
+}
