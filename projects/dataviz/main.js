@@ -195,7 +195,7 @@ let data = [
     type: 3,
   },
   {
-    text: "[WEDNESDAY, 1:30 AM] Sit down with KAUS, CAPH, HEZE, ATIK, and AZHA for three hours.",
+    text: "[WEDNESDAY, 1:30 AM] Say good night to KEID; sit down with KAUS, CAPH, HEZE, ATIK, and AZHA for three hours.",
     timestamp: 53,
     type: 1,
   },
@@ -246,7 +246,7 @@ function updateClock() {
         newItem.classList.add("theirLine");
         newItem.classList.add("theirLine" + [i]);
 
-        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+        const randomColor = Math.floor(Math.random()*16777215 + 100).toString(16);
 
         newItem.style.color = "#" + randomColor;
         // Math.random();
