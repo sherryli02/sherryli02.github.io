@@ -71,7 +71,7 @@ let data = [
     type: 1,
   },
   {
-    text: "POLARIS: We've been trying to watch this movie for so long and yet you say you're \"busy\"... SMH.", 
+    text: "POLARIS: We've been trying to watch this movie for so long and now you say you're \"busy\"... SMH.", 
     timestamp: 17,
     type: 2,
   },
