@@ -231,7 +231,7 @@ function updateClock() {
     // t = now.getMilliseconds() % 672;
     // t = now.getMinutes();
     t = now.getSeconds();
-    time.innerHTML = t;
+    // time.innerHTML = t;
 
     let item  = data.find(item => item.timestamp === t); 
     if (item != undefined) {
