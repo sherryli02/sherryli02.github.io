@@ -1,6 +1,7 @@
 let data = [
   {
     text: "[THURSDAY] BEGIN NEW CYCLE.", 
+    text: "[THURSDAY] BEGIN NEW CYCLE. NOTE: THIS IS A SPED-UP VERSION.", 
     timestamp: 0,
     type: 1,
   },
@@ -165,7 +166,7 @@ let data = [
     type: 2,
   },
   {
-    text: "AZHA: There's no such thing as dinner as 1 AM... you have got to start eating more in the day",
+    text: "AZHA: There's no such thing as dinner as 1 AM... you have got to start eating more in the day.",
     timestamp: 46,
     type: 2,
   },
@@ -195,7 +196,7 @@ let data = [
     type: 3,
   },
   {
-    text: "[WEDNESDAY, 1:30 AM] Sith down with KAUS, CAPH, HEZE, ATIK, and AZHA for three hours.",
+    text: "[WEDNESDAY, 1:30 AM] Sit down with KAUS, CAPH, HEZE, ATIK, and AZHA for three hours.",
     timestamp: 53,
     type: 1,
   },
@@ -245,6 +246,11 @@ function updateClock() {
       else if (item.type == 2) {
         newItem.classList.add("theirLine");
         newItem.classList.add("theirLine" + [i]);
+
+        const randomColor = Math.floor(Math.random()*16777215).toString(16);
+
+        newItem.style.color = "#" + randomColor;
+        // Math.random();
       } else if (item.type == 3) {
         newItem.classList.add("myLine");
         newItem.classList.add("myLine" + [i]);
@@ -256,7 +262,8 @@ function updateClock() {
 
     }
     // call this function again in 1000ms
-    setTimeout(updateClock, 60000);
+    setTimeout(updateClock, 1000);
+    // setTimeout(updateClock, 60000);
 }
 
 let container = document.querySelector(".container");
