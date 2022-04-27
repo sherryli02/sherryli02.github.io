@@ -1,7 +1,6 @@
 let data = [
   {
     text: "[THURSDAY] BEGIN NEW CYCLE.", 
-    text: "[THURSDAY] BEGIN NEW CYCLE. NOTE: THIS IS A SPED-UP VERSION.", 
     timestamp: 0,
     type: 1,
   },
@@ -219,7 +218,7 @@ function start() {
       let dataDiv = container.appendChild(newItem);
       newItem.classList.add("statusText");
       newItem.classList.add("statusText" + [i]);
-      let startMessage = "BEGIN LOG..."
+      let startMessage = "BEGIN LOG... NOTE: THIS IS A SPED-UP VERSION."
       dataDiv.innerHTML = startMessage;
       console.log(data);
 }
