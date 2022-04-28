@@ -89,6 +89,8 @@ font-style: oblique;
   font-family: 'Space Mono', monospace;
   font-family: 'Anonymous Pro', monospace;
   font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+
 
   font-size: 1vw;
   margin-left: 3vw;
@@ -116,6 +118,7 @@ font-style: oblique;
   margin-right: 3vw;
   margin-top: 1vw;
   margin-bottom: 1vw;
+  font-weight: bold;
 
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   white-space: nowrap; /* Keeps the content on a single line */
@@ -127,14 +130,14 @@ font-style: oblique;
   /*background-color: white;*/
 }
 
-.myLine:hover {
+/*.myLine:hover {
 	color: black;
 	background-color: white;
 }
 .theirLine:hover {
 	color: black;
 	background-color: white;
-}
+}*/
 
 @keyframes typing {
   from { width: 0 }
